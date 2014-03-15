@@ -1,0 +1,52 @@
+html{
+    background: #000; 
+}
+#title-wrap{
+	display:none;
+}
+.caption{
+	top:20px;
+	left:20px;
+}
+.image-row li, .gallery-item{
+	width:96%;
+	padding:2%;
+}
+.gallery-item{
+	margin-right:0;
+}
+.left-form{
+	float:left;
+	width:100%;
+}
+.right-form{
+	float:right;
+	width:100%;
+}
+aside{
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+}
+.text-wrap{
+	float:left;
+	width:100%;
+}
+.post-body{
+	width:92%;
+	padding:4%;
+}
+.label{
+	display:none;
+}
+.date-header,
+.post-footer,
+.jump-link{
+	width:100%;
+}
+.post h3.post-title{
+	width:88%;
+}
+.comments{
+	width:92%;
+}
