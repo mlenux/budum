@@ -1,0 +1,43 @@
+#subnav li{
+	float:left;
+	padding:16px 0;
+	width:100%;
+	border-bottom:1px solid rgba(255,255,255,0.05);
+	border-right:none;
+}
+.caption{	
+	top:10px;
+	left:10px;
+}
+.caption p{
+	font-size:0.7em;
+	line-height:1.5em;
+}
+.caption a{
+	padding:0px 6px;
+}
+.facebook-wrap{
+	display:none;
+}
+.post-footer-line-1,
+.post-ffoter-line-2{
+	display:none;
+}
+.post-body{
+	width:92%;
+}
+.box{
+  width:96%;
+  margin: 1%;
+  padding: 1%;
+}
+.post figure, 
+.post article figure{
+	padding:4%;
+}
+figure.full{
+	width:92%;	
+}
+figure.small{/*for small side images*/ 
+	display:none;
+}
