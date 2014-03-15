@@ -1,0 +1,24 @@
+#main-box-content{
+       background:transparent;
+       filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000,endColorstr=#90000000);
+       zoom: 1;
+}
+.totop{
+	background:#356793;
+}
+#title-wrap{
+	display:none;
+}
+.image-row li, .gallery-item{
+	width:26.6%;	
+}
+.submitbutton{
+	border:1px solid #f0f0f0;
+}
+.trigger{
+	background:#356793;
+}
+footer small,
+.image-row-text p{
+	background:#000;
+}
