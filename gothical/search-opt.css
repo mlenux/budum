@@ -1,0 +1,126 @@
+/* ------------------------------------------------------------------------------------
+--  SEARCH (#CUSTOMSEARCH1) OPTIONAL WIDGET
+------------------------------------------------------------------------------------ */
+input.gsc-input{
+	float:left;
+	background:#f0f0f0;
+	color:#808080;
+    width:52%; 
+    padding:0 2%;
+	border:none;
+	border-bottom:1px solid #bebebe;
+	height:36px;
+	outline:none;
+}
+input.gsc-search-button{
+	float:right;
+	height:36px;
+	background:#356793;
+	box-shadow:inset 0 0 4px rgba(0,0,0,0.2);
+	border:1px solid rgba(255,255,255,0.1);
+    color:#fff;
+    font-size:0.8em;
+	letter-spacing:0.1em;
+	cursor:pointer;
+    -moz-transition: 500ms ease-in;
+    -o-transition: 500ms ease-in;
+    -webkit-transition: 500ms ease-in;
+    -ms-transition: 500ms ease-in;
+    transition: 500ms ease-in; 
+}
+input.gsc-search-button:hover{
+	background:#070605;
+}
+/* ------------------------------------------------------------------------------------
+--  Google search (might not work!)
+------------------------------------------------------------------------------------ */
+#uds-searchControl{
+	background:#070605 !important;
+    padding:0!important;
+    margin-bottom:20px!important;
+}
+#uds-searchControl a{
+	font-family:'Monda', sans-serif;
+}
+/* ------------------------------------------------------------------------------------
+--  top and tabs
+------------------------------------------------------------------------------------ */
+.gsc-above-wrapper-area{
+	background:#070605 !important;
+	border:none !important;
+}
+.gsc-tabsArea{
+	background:transparent;
+	margin:30px 0 20px 0 !important;
+    padding: 0 50px 0 50px !important;
+}
+.gsc-tabHeader{
+	outline:none !important;
+	text-transform:uppercase;
+	font-size:0.8em;
+	letter-spacing:0.1em;
+}
+#uds-searchControl .gsc-tabhActive {
+    border-color: rgba(255,255,255,0.1)!important;
+    border-width: 1px!important;
+    border-style:solid;
+	background:#356793!important;
+	background:-webkit-linear-gradient(top, #356793 0%, #214b70 100%)!important;
+    background: -moz-linear-gradient(top, #356793 0%, #214b70 100%)!important;
+    background: -o-linear-gradient(top, #356793 0%, #214b70 100%)!important;
+    background: -ms-linear-gradient(top, #356793 0%, #214b70 100%)!important;
+    background: -khtml-linear-gradient(top, #356793 0%, #214b70 100%)!important;
+	color:#b1b1b1 !important;
+    font-weight: 700!important;
+    padding:5px 10px!important;
+}
+#uds-searchControl .gsc-tabhInactive {
+    border-color: transparent!important;
+    background-color: transparent !important;
+    color:#4A80AF!important;
+}
+/* ------------------------------------------------------------------------------------
+--  results
+------------------------------------------------------------------------------------ */
+.gsc-results{
+	background:#070605 !important;
+	border:none !important;
+	padding:0 50px 30px 50px !important;		
+	margin:0!important;
+	border-bottom:8px solid #214B70 !important;
+}
+.gsc-result{
+	border-bottom:none !important;
+}
+#uds-searchControl .gs-result .gs-title a:visited, #uds-searchControl .gs-result .gs-title a:link * {
+	color:#3BA2F7 !important;
+	text-decoration:none !important;
+}
+#uds-searchControl .gs-result .gs-title a:visited, #uds-searchControl .gs-result .gs-title a:visited * {
+	color:#214B70 !important;
+	text-decoration:none !important;
+}
+#uds-searchControl .gs-result a.gs-visibleUrl, #uds-searchControl .gs-result .gs-visibleUrl {
+ 	color:#4A80AF !important;
+	text-decoration:none !important;
+}
+a.gs-title{
+ 	color:#4A80AF !important;
+	text-decoration:none !important;
+}
+.gs-title a:visited * {
+	color:#4A80AF !important;
+	text-decoration:none !important;
+}
+#uds-searchControl .gsc-cursor-page {
+ 	color:#4A80AF !important;
+ 	outline:none !important;
+	font-family:'Monda', sans-serif;
+	text-decoration:none;
+}
+.gsc-result-info{
+    text-align: left;
+    color: #808080!important;
+    font-size: 0.8em !important;
+    padding: 0 50px 0 50px !important;
+}
