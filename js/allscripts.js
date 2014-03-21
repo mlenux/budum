@@ -1,0 +1,1 @@
+document.getElementById("copy").innerHTML=" <p>Copyright <a expr:href='data:blog.homepageUrl'><data:blog.title/></a> 2014 . Template by <a href='http://www.noval.web.id/'>Noval Web</a> . Redesign by <a href='http://aisukablog.blogspot.com/'>Aisuka Blog</a> . Powered by <a href='http://www.blogger.com'>Blogger</a></p>"
