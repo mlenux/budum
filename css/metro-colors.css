@@ -1,0 +1,1878 @@
+/*
+    Metro colors original source from https://github.com/olton/Metro-UI-CSS
+*/
+.op-metro-default {
+  background-color: rgba(27, 161, 226, 0.7);
+}
+.op-metro-black {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+.op-metro-white {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+}
+.op-metro-lime {
+  background-color: rgba(164, 196, 0, 0.7) !important;
+}
+.op-metro-green {
+  background-color: rgba(96, 169, 23, 0.7) !important;
+}
+.op-metro-emerald {
+  background-color: rgba(0, 138, 0, 0.7) !important;
+}
+.op-metro-teal {
+  background-color: rgba(0, 171, 169, 0.7) !important;
+}
+.op-metro-cyan {
+  background-color: rgba(27, 161, 226, 0.7) !important;
+}
+.op-metro-cobalt {
+  background-color: rgba(0, 80, 239, 0.7) !important;
+}
+.op-metro-indigo {
+  background-color: rgba(106, 0, 255, 0.7) !important;
+}
+.op-metro-violet {
+  background-color: rgba(170, 0, 255, 0.7) !important;
+}
+.op-metro-pink {
+  background-color: rgba(220, 79, 173, 0.7) !important;
+}
+.op-metro-magenta {
+  background-color: rgba(216, 0, 115, 0.7) !important;
+}
+.op-metro-crimson {
+  background-color: rgba(162, 0, 37, 0.7) !important;
+}
+.op-metro-red {
+  background-color: rgba(206, 53, 44, 0.7) !important;
+}
+.op-metro-orange {
+  background-color: rgba(250, 104, 0, 0.7) !important;
+}
+.op-metro-amber {
+  background-color: rgba(240, 163, 10, 0.7) !important;
+}
+.op-metro-yellow {
+  background-color: rgba(227, 200, 0, 0.7) !important;
+}
+.op-metro-brown {
+  background-color: rgba(130, 90, 44, 0.7) !important;
+}
+.op-metro-olive {
+  background-color: rgba(109, 135, 100, 0.7) !important;
+}
+.op-metro-steel {
+  background-color: rgba(100, 118, 135, 0.7) !important;
+}
+.op-metro-mauve {
+  background-color: rgba(118, 96, 138, 0.7) !important;
+}
+.op-metro-taupe {
+  background-color: rgba(135, 121, 78, 0.7) !important;
+}
+.op-metro-gray {
+  background-color: rgba(85, 85, 85, 0.7) !important;
+}
+.op-metro-dark {
+  background-color: rgba(51, 51, 51, 0.7) !important;
+}
+.op-metro-darker {
+  background-color: rgba(34, 34, 34, 0.7) !important;
+}
+.op-metro-transparent {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+.op-metro-darkBrown {
+  background-color: rgba(99, 54, 47, 0.7) !important;
+}
+.op-metro-darkCrimson {
+  background-color: rgba(100, 0, 36, 0.7) !important;
+}
+.op-metro-darkMagenta {
+  background-color: rgba(129, 0, 60, 0.7) !important;
+}
+.op-metro-darkIndigo {
+  background-color: rgba(75, 0, 150, 0.7) !important;
+}
+.op-metro-darkCyan {
+  background-color: rgba(27, 110, 174, 0.7) !important;
+}
+.op-metro-darkCobalt {
+  background-color: rgba(0, 53, 106, 0.7) !important;
+}
+.op-metro-darkTeal {
+  background-color: rgba(0, 64, 80, 0.7) !important;
+}
+.op-metro-darkEmerald {
+  background-color: rgba(0, 62, 0, 0.7) !important;
+}
+.op-metro-darkGreen {
+  background-color: rgba(18, 128, 35, 0.7) !important;
+}
+.op-metro-darkOrange {
+  background-color: rgba(191, 90, 21, 0.7) !important;
+}
+.op-metro-darkRed {
+  background-color: rgba(154, 22, 22, 0.7) !important;
+}
+.op-metro-darkPink {
+  background-color: rgba(154, 22, 90, 0.7) !important;
+}
+.op-metro-darkViolet {
+  background-color: rgba(87, 22, 154, 0.7) !important;
+}
+.op-metro-darkBlue {
+  background-color: rgba(22, 73, 154, 0.7) !important;
+}
+.op-metro-lightBlue {
+  background-color: rgba(67, 144, 223, 0.7) !important;
+}
+.op-metro-lightRed {
+  background-color: rgba(218, 90, 83, 0.7) !important;
+}
+.op-metro-lightGreen {
+  background-color: rgba(122, 214, 29, 0.7) !important;
+}
+.op-metro-lighterBlue {
+  background-color: rgba(0, 204, 255, 0.7) !important;
+}
+.op-metro-lightTeal {
+  background-color: rgba(69, 255, 253, 0.7) !important;
+}
+.op-metro-lightOlive {
+  background-color: rgba(120, 170, 28, 0.7) !important;
+}
+.op-metro-lightOrange {
+  background-color: rgba(194, 144, 8, 0.7) !important;
+}
+.op-metro-lightPink {
+  background-color: rgba(244, 114, 208, 0.7) !important;
+}
+.op-metro-grayDark {
+  background-color: rgba(51, 51, 51, 0.7) !important;
+}
+.op-metro-grayDarker {
+  background-color: rgba(34, 34, 34, 0.7) !important;
+}
+.op-metro-grayLight {
+  background-color: rgba(153, 153, 153, 0.7) !important;
+}
+.op-metro-grayLighter {
+  background-color: rgba(238, 238, 238, 0.7) !important;
+}
+.op-metro-blue {
+  background-color: rgba(0, 175, 240, 0.7) !important;
+}
+.bg-metro-lime {
+  background: #a4c400 !important;
+}
+.bg-metro-green {
+  background: #60a917 !important;
+}
+.bg-metro-emerald {
+  background: #008a00 !important;
+}
+.bg-metro-teal {
+  background: #00aba9 !important;
+}
+.bg-metro-cyan {
+  background: #1ba1e2 !important;
+}
+.bg-metro-cobalt {
+  background: #0050ef !important;
+}
+.bg-metro-indigo {
+  background: #6a00ff !important;
+}
+.bg-metro-violet {
+  background: #aa00ff !important;
+}
+.bg-metro-pink {
+  background: #dc4fad !important;
+}
+.bg-metro-magenta {
+  background: #d80073 !important;
+}
+.bg-metro-crimson {
+  background: #a20025 !important;
+}
+.bg-metro-red {
+  background: #ce352c !important;
+}
+.bg-metro-orange {
+  background: #fa6800 !important;
+}
+.bg-metro-amber {
+  background: #f0a30a !important;
+}
+.bg-metro-yellow {
+  background: #e3c800 !important;
+}
+.bg-metro-brown {
+  background: #825a2c !important;
+}
+.bg-metro-olive {
+  background: #6d8764 !important;
+}
+.bg-metro-steel {
+  background: #647687 !important;
+}
+.bg-metro-mauve {
+  background: #76608a !important;
+}
+.bg-metro-taupe {
+  background: #87794e !important;
+}
+.bg-metro-gray {
+  background: #555555 !important;
+}
+.bg-metro-dark {
+  background: #333333 !important;
+}
+.bg-metro-darker {
+  background: #222222 !important;
+}
+.bg-metro-transparent {
+  background: transparent !important;
+}
+.bg-metro-darkBrown {
+  background: #63362f !important;
+}
+.bg-metro-darkCrimson {
+  background: #640024 !important;
+}
+.bg-metro-darkMagenta {
+  background: #81003c !important;
+}
+.bg-metro-darkIndigo {
+  background: #4b0096 !important;
+}
+.bg-metro-darkCyan {
+  background: #1b6eae !important;
+}
+.bg-metro-darkCobalt {
+  background: #00356a !important;
+}
+.bg-metro-darkTeal {
+  background: #004050 !important;
+}
+.bg-metro-darkEmerald {
+  background: #003e00 !important;
+}
+.bg-metro-darkGreen {
+  background: #128023 !important;
+}
+.bg-metro-darkOrange {
+  background: #bf5a15 !important;
+}
+.bg-metro-darkRed {
+  background: #9a1616 !important;
+}
+.bg-metro-darkPink {
+  background: #9a165a !important;
+}
+.bg-metro-darkViolet {
+  background: #57169a !important;
+}
+.bg-metro-darkBlue {
+  background: #16499a !important;
+}
+.bg-metro-lightBlue {
+  background: #4390df !important;
+}
+.bg-metro-lightRed {
+  background: #da5a53 !important;
+}
+.bg-metro-lightGreen {
+  background: #7ad61d !important;
+}
+.bg-metro-lighterBlue {
+  background: #00ccff !important;
+}
+.bg-metro-lightTeal {
+  background: #45fffd !important;
+}
+.bg-metro-lightOlive {
+  background: #78aa1c !important;
+}
+.bg-metro-lightOrange {
+  background: #c29008 !important;
+}
+.bg-metro-lightPink {
+  background: #f472d0 !important;
+}
+.bg-metro-grayDark {
+  background: #333333 !important;
+}
+.bg-metro-grayDarker {
+  background: #222222 !important;
+}
+.bg-metro-grayLight {
+  background: #999999 !important;
+}
+.bg-metro-grayLighter {
+  background: #eeeeee !important;
+}
+.bg-metro-blue {
+  background: #00aff0 !important;
+}
+.text-metro-lime {
+  color: #a4c400 !important;
+}
+.text-metro-green {
+  color: #60a917 !important;
+}
+.text-metro-emerald {
+  color: #008a00 !important;
+}
+.text-metro-teal {
+  color: #00aba9 !important;
+}
+.text-metro-cyan {
+  color: #1ba1e2 !important;
+}
+.text-metro-cobalt {
+  color: #0050ef !important;
+}
+.text-metro-indigo {
+  color: #6a00ff !important;
+}
+.text-metro-violet {
+  color: #aa00ff !important;
+}
+.text-metro-pink {
+  color: #dc4fad !important;
+}
+.text-metro-magenta {
+  color: #d80073 !important;
+}
+.text-metro-crimson {
+  color: #a20025 !important;
+}
+.text-metro-red {
+  color: #ce352c !important;
+}
+.text-metro-orange {
+  color: #fa6800 !important;
+}
+.text-metro-amber {
+  color: #f0a30a !important;
+}
+.text-metro-yellow {
+  color: #e3c800 !important;
+}
+.text-metro-brown {
+  color: #825a2c !important;
+}
+.text-metro-olive {
+  color: #6d8764 !important;
+}
+.text-metro-steel {
+  color: #647687 !important;
+}
+.text-metro-mauve {
+  color: #76608a !important;
+}
+.text-metro-taupe {
+  color: #87794e !important;
+}
+.text-metro-gray {
+  color: #555555 !important;
+}
+.text-metro-dark {
+  color: #333333 !important;
+}
+.text-metro-darker {
+  color: #222222 !important;
+}
+.text-metro-transparent {
+  color: transparent !important;
+}
+.text-metro-darkBrown {
+  color: #63362f !important;
+}
+.text-metro-darkCrimson {
+  color: #640024 !important;
+}
+.text-metro-darkMagenta {
+  color: #81003c !important;
+}
+.text-metro-darkIndigo {
+  color: #4b0096 !important;
+}
+.text-metro-darkCyan {
+  color: #1b6eae !important;
+}
+.text-metro-darkCobalt {
+  color: #00356a !important;
+}
+.text-metro-darkTeal {
+  color: #004050 !important;
+}
+.text-metro-darkEmerald {
+  color: #003e00 !important;
+}
+.text-metro-darkGreen {
+  color: #128023 !important;
+}
+.text-metro-darkOrange {
+  color: #bf5a15 !important;
+}
+.text-metro-darkRed {
+  color: #9a1616 !important;
+}
+.text-metro-darkPink {
+  color: #9a165a !important;
+}
+.text-metro-darkViolet {
+  color: #57169a !important;
+}
+.text-metro-darkBlue {
+  color: #16499a !important;
+}
+.text-metro-lightBlue {
+  color: #4390df !important;
+}
+.text-metro-lighterBlue {
+  color: #00ccff !important;
+}
+.text-metro-lightTeal {
+  color: #45fffd !important;
+}
+.text-metro-lightOlive {
+  color: #78aa1c !important;
+}
+.text-metro-lightOrange {
+  color: #c29008 !important;
+}
+.text-metro-lightPink {
+  color: #f472d0 !important;
+}
+.text-metro-lightRed {
+  color: #da5a53 !important;
+}
+.text-metro-lightGreen {
+  color: #7ad61d !important;
+}
+.text-metro-grayDark {
+  color: #333333 !important;
+}
+.text-metro-grayDarker {
+  color: #222222 !important;
+}
+.text-metro-grayLight {
+  color: #999999 !important;
+}
+.text-metro-grayLighter {
+  color: #eeeeee !important;
+}
+.text-metro-blue {
+  color: #00aff0 !important;
+}
+.ol-metro-lime {
+  outline-color: #a4c400 !important;
+}
+.ol-metro-green {
+  outline-color: #60a917 !important;
+}
+.ol-metro-emerald {
+  outline-color: #008a00 !important;
+}
+.ol-metro-teal {
+  outline-color: #00aba9 !important;
+}
+.ol-metro-cyan {
+  outline-color: #1ba1e2 !important;
+}
+.ol-metro-cobalt {
+  outline-color: #0050ef !important;
+}
+.ol-metro-indigo {
+  outline-color: #6a00ff !important;
+}
+.ol-metro-violet {
+  outline-color: #aa00ff !important;
+}
+.ol-metro-pink {
+  outline-color: #dc4fad !important;
+}
+.ol-metro-magenta {
+  outline-color: #d80073 !important;
+}
+.ol-metro-crimson {
+  outline-color: #a20025 !important;
+}
+.ol-metro-red {
+  outline-color: #ce352c !important;
+}
+.ol-metro-orange {
+  outline-color: #fa6800 !important;
+}
+.ol-metro-amber {
+  outline-color: #f0a30a !important;
+}
+.ol-metro-yellow {
+  outline-color: #e3c800 !important;
+}
+.ol-metro-brown {
+  outline-color: #825a2c !important;
+}
+.ol-metro-olive {
+  outline-color: #6d8764 !important;
+}
+.ol-metro-steel {
+  outline-color: #647687 !important;
+}
+.ol-metro-mauve {
+  outline-color: #76608a !important;
+}
+.ol-metro-taupe {
+  outline-color: #87794e !important;
+}
+.ol-metro-gray {
+  outline-color: #555555 !important;
+}
+.ol-metro-dark {
+  outline-color: #333333 !important;
+}
+.ol-metro-darker {
+  outline-color: #222222 !important;
+}
+.ol-metro-transparent {
+  outline-color: transparent !important;
+}
+.ol-metro-darkBrown {
+  outline-color: #63362f !important;
+}
+.ol-metro-darkCrimson {
+  outline-color: #640024 !important;
+}
+.ol-metro-darkMagenta {
+  outline-color: #81003c !important;
+}
+.ol-metro-darkIndigo {
+  outline-color: #4b0096 !important;
+}
+.ol-metro-darkCyan {
+  outline-color: #1b6eae !important;
+}
+.ol-metro-darkCobalt {
+  outline-color: #00356a !important;
+}
+.ol-metro-darkTeal {
+  outline-color: #004050 !important;
+}
+.ol-metro-darkEmerald {
+  outline-color: #003e00 !important;
+}
+.ol-metro-darkGreen {
+  outline-color: #128023 !important;
+}
+.ol-metro-darkOrange {
+  outline-color: #bf5a15 !important;
+}
+.ol-metro-darkRed {
+  outline-color: #9a1616 !important;
+}
+.ol-metro-darkPink {
+  outline-color: #9a165a !important;
+}
+.ol-metro-darkViolet {
+  outline-color: #57169a !important;
+}
+.ol-metro-darkBlue {
+  outline-color: #16499a !important;
+}
+.ol-metro-lightBlue {
+  outline-color: #4390df !important;
+}
+.ol-metro-lighterBlue {
+  outline-color: #00ccff !important;
+}
+.ol-metro-lightTeal {
+  outline-color: #45fffd !important;
+}
+.ol-metro-lightOlive {
+  outline-color: #78aa1c !important;
+}
+.ol-metro-lightOrange {
+  outline-color: #c29008 !important;
+}
+.ol-metro-lightPink {
+  outline-color: #f472d0 !important;
+}
+.ol-metro-lightRed {
+  outline-color: #da5a53 !important;
+}
+.ol-metro-lightGreen {
+  outline-color: #7ad61d !important;
+}
+.ol-metro-grayDark {
+  outline-color: #333333 !important;
+}
+.ol-metro-grayDarker {
+  outline-color: #222222 !important;
+}
+.ol-metro-grayLight {
+  outline-color: #999999 !important;
+}
+.ol-metro-grayLighter {
+  outline-color: #eeeeee !important;
+}
+.ol-metro-blue {
+  outline-color: #00aff0 !important;
+}
+.bd-metro-lime {
+  border-color: #a4c400 !important;
+}
+.bd-metro-green {
+  border-color: #60a917 !important;
+}
+.bd-metro-emerald {
+  border-color: #008a00 !important;
+}
+.bd-metro-teal {
+  border-color: #00aba9 !important;
+}
+.bd-metro-cyan {
+  border-color: #1ba1e2 !important;
+}
+.bd-metro-cobalt {
+  border-color: #0050ef !important;
+}
+.bd-metro-indigo {
+  border-color: #6a00ff !important;
+}
+.bd-metro-violet {
+  border-color: #aa00ff !important;
+}
+.bd-metro-pink {
+  border-color: #dc4fad !important;
+}
+.bd-metro-magenta {
+  border-color: #d80073 !important;
+}
+.bd-metro-crimson {
+  border-color: #a20025 !important;
+}
+.bd-metro-red {
+  border-color: #ce352c !important;
+}
+.bd-metro-orange {
+  border-color: #fa6800 !important;
+}
+.bd-metro-amber {
+  border-color: #f0a30a !important;
+}
+.bd-metro-yellow {
+  border-color: #e3c800 !important;
+}
+.bd-metro-brown {
+  border-color: #825a2c !important;
+}
+.bd-metro-olive {
+  border-color: #6d8764 !important;
+}
+.bd-metro-steel {
+  border-color: #647687 !important;
+}
+.bd-metro-mauve {
+  border-color: #76608a !important;
+}
+.bd-metro-taupe {
+  border-color: #87794e !important;
+}
+.bd-metro-gray {
+  border-color: #555555 !important;
+}
+.bd-metro-dark {
+  border-color: #333333 !important;
+}
+.bd-metro-darker {
+  border-color: #222222 !important;
+}
+.bd-metro-transparent {
+  border-color: transparent !important;
+}
+.bd-metro-darkBrown {
+  border-color: #63362f !important;
+}
+.bd-metro-darkCrimson {
+  border-color: #640024 !important;
+}
+.bd-metro-darkMagenta {
+  border-color: #81003c !important;
+}
+.bd-metro-darkIndigo {
+  border-color: #4b0096 !important;
+}
+.bd-metro-darkCyan {
+  border-color: #1b6eae !important;
+}
+.bd-metro-darkCobalt {
+  border-color: #00356a !important;
+}
+.bd-metro-darkTeal {
+  border-color: #004050 !important;
+}
+.bd-metro-darkEmerald {
+  border-color: #003e00 !important;
+}
+.bd-metro-darkGreen {
+  border-color: #128023 !important;
+}
+.bd-metro-darkOrange {
+  border-color: #bf5a15 !important;
+}
+.bd-metro-darkRed {
+  border-color: #9a1616 !important;
+}
+.bd-metro-darkPink {
+  border-color: #9a165a !important;
+}
+.bd-metro-darkViolet {
+  border-color: #57169a !important;
+}
+.bd-metro-darkBlue {
+  border-color: #16499a !important;
+}
+.bd-metro-lightBlue {
+  border-color: #4390df !important;
+}
+.bd-metro-lightTeal {
+  border-color: #45fffd !important;
+}
+.bd-metro-lightOlive {
+  border-color: #78aa1c !important;
+}
+.bd-metro-lightOrange {
+  border-color: #c29008 !important;
+}
+.bd-metro-lightPink {
+  border-color: #f472d0 !important;
+}
+.bd-metro-lightRed {
+  border-color: #da5a53 !important;
+}
+.bd-metro-lightGreen {
+  border-color: #7ad61d !important;
+}
+.bd-metro-grayDark {
+  border-color: #333333 !important;
+}
+.bd-metro-grayDarker {
+  border-color: #222222 !important;
+}
+.bd-metro-grayLight {
+  border-color: #999999 !important;
+}
+.bd-metro-grayLighter {
+  border-color: #eeeeee !important;
+}
+.bd-metro-blue {
+  border-color: #00aff0 !important;
+}
+.bg-metro-hover-lime:hover {
+  background: #a4c400 !important;
+}
+.bg-metro-hover-green:hover {
+  background: #60a917 !important;
+}
+.bg-metro-hover-emerald:hover {
+  background: #008a00 !important;
+}
+.bg-metro-hover-teal:hover {
+  background: #00aba9 !important;
+}
+.bg-metro-hover-cyan:hover {
+  background: #1ba1e2 !important;
+}
+.bg-metro-hover-cobalt:hover {
+  background: #0050ef !important;
+}
+.bg-metro-hover-indigo:hover {
+  background: #6a00ff !important;
+}
+.bg-metro-hover-violet:hover {
+  background: #aa00ff !important;
+}
+.bg-metro-hover-pink:hover {
+  background: #dc4fad !important;
+}
+.bg-metro-hover-magenta:hover {
+  background: #d80073 !important;
+}
+.bg-metro-hover-crimson:hover {
+  background: #a20025 !important;
+}
+.bg-metro-hover-red:hover {
+  background: #ce352c !important;
+}
+.bg-metro-hover-orange:hover {
+  background: #fa6800 !important;
+}
+.bg-metro-hover-amber:hover {
+  background: #f0a30a !important;
+}
+.bg-metro-hover-yellow:hover {
+  background: #e3c800 !important;
+}
+.bg-metro-hover-brown:hover {
+  background: #825a2c !important;
+}
+.bg-metro-hover-olive:hover {
+  background: #6d8764 !important;
+}
+.bg-metro-hover-steel:hover {
+  background: #647687 !important;
+}
+.bg-metro-hover-mauve:hover {
+  background: #76608a !important;
+}
+.bg-metro-hover-taupe:hover {
+  background: #87794e !important;
+}
+.bg-metro-hover-gray:hover {
+  background: #555555 !important;
+}
+.bg-metro-hover-dark:hover {
+  background: #333333 !important;
+}
+.bg-metro-hover-darker:hover {
+  background: #222222 !important;
+}
+.bg-metro-hover-transparent:hover {
+  background: transparent !important;
+}
+.bg-metro-hover-darkBrown:hover {
+  background: #63362f !important;
+}
+.bg-metro-hover-darkCrimson:hover {
+  background: #640024 !important;
+}
+.bg-metro-hover-darkMagenta:hover {
+  background: #81003c !important;
+}
+.bg-metro-hover-darkIndigo:hover {
+  background: #4b0096 !important;
+}
+.bg-metro-hover-darkCyan:hover {
+  background: #1b6eae !important;
+}
+.bg-metro-hover-darkCobalt:hover {
+  background: #00356a !important;
+}
+.bg-metro-hover-darkTeal:hover {
+  background: #004050 !important;
+}
+.bg-metro-hover-darkEmerald:hover {
+  background: #003e00 !important;
+}
+.bg-metro-hover-darkGreen:hover {
+  background: #128023 !important;
+}
+.bg-metro-hover-darkOrange:hover {
+  background: #bf5a15 !important;
+}
+.bg-metro-hover-darkRed:hover {
+  background: #9a1616 !important;
+}
+.bg-metro-hover-darkPink:hover {
+  background: #9a165a !important;
+}
+.bg-metro-hover-darkViolet:hover {
+  background: #57169a !important;
+}
+.bg-metro-hover-darkBlue:hover {
+  background: #16499a !important;
+}
+.bg-metro-hover-lightBlue:hover {
+  background: #4390df !important;
+}
+.bg-metro-hover-lightTeal:hover {
+  background: #45fffd !important;
+}
+.bg-metro-hover-lightOlive:hover {
+  background: #78aa1c !important;
+}
+.bg-metro-hover-lightOrange:hover {
+  background: #c29008 !important;
+}
+.bg-metro-hover-lightPink:hover {
+  background: #f472d0 !important;
+}
+.bg-metro-hover-lightRed:hover {
+  background: #da5a53 !important;
+}
+.bg-metro-hover-lightGreen:hover {
+  background: #7ad61d !important;
+}
+.bg-metro-hover-grayDark:hover {
+  background: #333333 !important;
+}
+.bg-metro-hover-grayDarker:hover {
+  background: #222222 !important;
+}
+.bg-metro-hover-grayLight:hover {
+  background: #999999 !important;
+}
+.bg-metro-hover-grayLighter:hover {
+  background: #eeeeee !important;
+}
+.bg-metro-hover-blue:hover {
+  background: #00aff0 !important;
+}
+.bg-metro-active-lime:active {
+  background: #a4c400 !important;
+}
+.bg-metro-active-green:active {
+  background: #60a917 !important;
+}
+.bg-metro-active-emerald:active {
+  background: #008a00 !important;
+}
+.bg-metro-active-teal:active {
+  background: #00aba9 !important;
+}
+.bg-metro-active-cyan:active {
+  background: #1ba1e2 !important;
+}
+.bg-metro-active-cobalt:active {
+  background: #0050ef !important;
+}
+.bg-metro-active-indigo:active {
+  background: #6a00ff !important;
+}
+.bg-metro-active-violet:active {
+  background: #aa00ff !important;
+}
+.bg-metro-active-pink:active {
+  background: #dc4fad !important;
+}
+.bg-metro-active-magenta:active {
+  background: #d80073 !important;
+}
+.bg-metro-active-crimson:active {
+  background: #a20025 !important;
+}
+.bg-metro-active-red:active {
+  background: #ce352c !important;
+}
+.bg-metro-active-orange:active {
+  background: #fa6800 !important;
+}
+.bg-metro-active-amber:active {
+  background: #f0a30a !important;
+}
+.bg-metro-active-yellow:active {
+  background: #e3c800 !important;
+}
+.bg-metro-active-brown:active {
+  background: #825a2c !important;
+}
+.bg-metro-active-olive:active {
+  background: #6d8764 !important;
+}
+.bg-metro-active-steel:active {
+  background: #647687 !important;
+}
+.bg-metro-active-mauve:active {
+  background: #76608a !important;
+}
+.bg-metro-active-taupe:active {
+  background: #87794e !important;
+}
+.bg-metro-active-gray:active {
+  background: #555555 !important;
+}
+.bg-metro-active-dark:active {
+  background: #333333 !important;
+}
+.bg-metro-active-darker:active {
+  background: #222222 !important;
+}
+.bg-metro-active-transparent:active {
+  background: transparent !important;
+}
+.bg-metro-active-darkBrown:active {
+  background: #63362f !important;
+}
+.bg-metro-active-darkCrimson:active {
+  background: #640024 !important;
+}
+.bg-metro-active-darkMagenta:active {
+  background: #81003c !important;
+}
+.bg-metro-active-darkIndigo:active {
+  background: #4b0096 !important;
+}
+.bg-metro-active-darkCyan:active {
+  background: #1b6eae !important;
+}
+.bg-metro-active-darkCobalt:active {
+  background: #00356a !important;
+}
+.bg-metro-active-darkTeal:active {
+  background: #004050 !important;
+}
+.bg-metro-active-darkEmerald:active {
+  background: #003e00 !important;
+}
+.bg-metro-active-darkGreen:active {
+  background: #128023 !important;
+}
+.bg-metro-active-darkOrange:active {
+  background: #bf5a15 !important;
+}
+.bg-metro-active-darkRed:active {
+  background: #9a1616 !important;
+}
+.bg-metro-active-darkPink:active {
+  background: #9a165a !important;
+}
+.bg-metro-active-darkViolet:active {
+  background: #57169a !important;
+}
+.bg-metro-active-darkBlue:active {
+  background: #16499a !important;
+}
+.bg-metro-active-lightBlue:active {
+  background: #4390df !important;
+}
+.bg-metro-active-lightTeal:active {
+  background: #45fffd !important;
+}
+.bg-metro-active-lightOlive:active {
+  background: #78aa1c !important;
+}
+.bg-metro-active-lightOrange:active {
+  background: #c29008 !important;
+}
+.bg-metro-active-lightPink:active {
+  background: #f472d0 !important;
+}
+.bg-metro-active-lightRed:active {
+  background: #da5a53 !important;
+}
+.bg-metro-active-lightGreen:active {
+  background: #7ad61d !important;
+}
+.bg-metro-active-grayDark:active {
+  background: #333333 !important;
+}
+.bg-metro-active-grayDarker:active {
+  background: #222222 !important;
+}
+.bg-metro-active-grayLight:active {
+  background: #999999 !important;
+}
+.bg-metro-active-grayLighter:active {
+  background: #eeeeee !important;
+}
+.bg-metro-active-blue:active {
+  background: #00aff0 !important;
+}
+.bg-metro-focus-lime:focus {
+  background: #a4c400 !important;
+}
+.bg-metro-focus-green:focus {
+  background: #60a917 !important;
+}
+.bg-metro-focus-emerald:focus {
+  background: #008a00 !important;
+}
+.bg-metro-focus-teal:focus {
+  background: #00aba9 !important;
+}
+.bg-metro-focus-cyan:focus {
+  background: #1ba1e2 !important;
+}
+.bg-metro-focus-cobalt:focus {
+  background: #0050ef !important;
+}
+.bg-metro-focus-indigo:focus {
+  background: #6a00ff !important;
+}
+.bg-metro-focus-violet:focus {
+  background: #aa00ff !important;
+}
+.bg-metro-focus-pink:focus {
+  background: #dc4fad !important;
+}
+.bg-metro-focus-magenta:focus {
+  background: #d80073 !important;
+}
+.bg-metro-focus-crimson:focus {
+  background: #a20025 !important;
+}
+.bg-metro-focus-red:focus {
+  background: #ce352c !important;
+}
+.bg-metro-focus-orange:focus {
+  background: #fa6800 !important;
+}
+.bg-metro-focus-amber:focus {
+  background: #f0a30a !important;
+}
+.bg-metro-focus-yellow:focus {
+  background: #e3c800 !important;
+}
+.bg-metro-focus-brown:focus {
+  background: #825a2c !important;
+}
+.bg-metro-focus-olive:focus {
+  background: #6d8764 !important;
+}
+.bg-metro-focus-steel:focus {
+  background: #647687 !important;
+}
+.bg-metro-focus-mauve:focus {
+  background: #76608a !important;
+}
+.bg-metro-focus-taupe:focus {
+  background: #87794e !important;
+}
+.bg-metro-focus-gray:focus {
+  background: #555555 !important;
+}
+.bg-metro-focus-dark:focus {
+  background: #333333 !important;
+}
+.bg-metro-focus-darker:focus {
+  background: #222222 !important;
+}
+.bg-metro-focus-transparent:focus {
+  background: transparent !important;
+}
+.bg-metro-focus-darkBrown:focus {
+  background: #63362f !important;
+}
+.bg-metro-focus-darkCrimson:focus {
+  background: #640024 !important;
+}
+.bg-metro-focus-darkMagenta:focus {
+  background: #81003c !important;
+}
+.bg-metro-focus-darkIndigo:focus {
+  background: #4b0096 !important;
+}
+.bg-metro-focus-darkCyan:focus {
+  background: #1b6eae !important;
+}
+.bg-metro-focus-darkCobalt:focus {
+  background: #00356a !important;
+}
+.bg-metro-focus-darkTeal:focus {
+  background: #004050 !important;
+}
+.bg-metro-focus-darkEmerald:focus {
+  background: #003e00 !important;
+}
+.bg-metro-focus-darkGreen:focus {
+  background: #128023 !important;
+}
+.bg-metro-focus-darkOrange:focus {
+  background: #bf5a15 !important;
+}
+.bg-metro-focus-darkRed:focus {
+  background: #9a1616 !important;
+}
+.bg-metro-focus-darkPink:focus {
+  background: #9a165a !important;
+}
+.bg-metro-focus-darkViolet:focus {
+  background: #57169a !important;
+}
+.bg-metro-focus-darkBlue:focus {
+  background: #16499a !important;
+}
+.bg-metro-focus-lightBlue:focus {
+  background: #4390df !important;
+}
+.bg-metro-focus-lightTeal:focus {
+  background: #45fffd !important;
+}
+.bg-metro-focus-lightOlive:focus {
+  background: #78aa1c !important;
+}
+.bg-metro-focus-lightOrange:focus {
+  background: #c29008 !important;
+}
+.bg-metro-focus-lightPink:focus {
+  background: #f472d0 !important;
+}
+.bg-metro-focus-lightRed:focus {
+  background: #da5a53 !important;
+}
+.bg-metro-focus-lightGreen:focus {
+  background: #7ad61d !important;
+}
+.bg-metro-focus-grayDark:focus {
+  background: #333333 !important;
+}
+.bg-metro-focus-grayDarker:focus {
+  background: #222222 !important;
+}
+.bg-metro-focus-grayLight:focus {
+  background: #999999 !important;
+}
+.bg-metro-focus-grayLighter:focus {
+  background: #eeeeee !important;
+}
+.bg-metro-focus-blue:focus {
+  background: #00aff0 !important;
+}
+.fg-metro-hover-lime:hover {
+  color: #a4c400 !important;
+}
+.fg-metro-hover-green:hover {
+  color: #60a917 !important;
+}
+.fg-metro-hover-emerald:hover {
+  color: #008a00 !important;
+}
+.fg-metro-hover-teal:hover {
+  color: #00aba9 !important;
+}
+.fg-metro-hover-cyan:hover {
+  color: #1ba1e2 !important;
+}
+.fg-metro-hover-cobalt:hover {
+  color: #0050ef !important;
+}
+.fg-metro-hover-indigo:hover {
+  color: #6a00ff !important;
+}
+.fg-metro-hover-violet:hover {
+  color: #aa00ff !important;
+}
+.fg-metro-hover-pink:hover {
+  color: #dc4fad !important;
+}
+.fg-metro-hover-magenta:hover {
+  color: #d80073 !important;
+}
+.fg-metro-hover-crimson:hover {
+  color: #a20025 !important;
+}
+.fg-metro-hover-red:hover {
+  color: #ce352c !important;
+}
+.fg-metro-hover-orange:hover {
+  color: #fa6800 !important;
+}
+.fg-metro-hover-amber:hover {
+  color: #f0a30a !important;
+}
+.fg-metro-hover-yellow:hover {
+  color: #e3c800 !important;
+}
+.fg-metro-hover-brown:hover {
+  color: #825a2c !important;
+}
+.fg-metro-hover-olive:hover {
+  color: #6d8764 !important;
+}
+.fg-metro-hover-steel:hover {
+  color: #647687 !important;
+}
+.fg-metro-hover-mauve:hover {
+  color: #76608a !important;
+}
+.fg-metro-hover-taupe:hover {
+  color: #87794e !important;
+}
+.fg-metro-hover-gray:hover {
+  color: #555555 !important;
+}
+.fg-metro-hover-dark:hover {
+  color: #333333 !important;
+}
+.fg-metro-hover-darker:hover {
+  color: #222222 !important;
+}
+.fg-metro-hover-transparent:hover {
+  color: transparent !important;
+}
+.fg-metro-hover-darkBrown:hover {
+  color: #63362f !important;
+}
+.fg-metro-hover-darkCrimson:hover {
+  color: #640024 !important;
+}
+.fg-metro-hover-darkMagenta:hover {
+  color: #81003c !important;
+}
+.fg-metro-hover-darkIndigo:hover {
+  color: #4b0096 !important;
+}
+.fg-metro-hover-darkCyan:hover {
+  color: #1b6eae !important;
+}
+.fg-metro-hover-darkCobalt:hover {
+  color: #00356a !important;
+}
+.fg-metro-hover-darkTeal:hover {
+  color: #004050 !important;
+}
+.fg-metro-hover-darkEmerald:hover {
+  color: #003e00 !important;
+}
+.fg-metro-hover-darkGreen:hover {
+  color: #128023 !important;
+}
+.fg-metro-hover-darkOrange:hover {
+  color: #bf5a15 !important;
+}
+.fg-metro-hover-darkRed:hover {
+  color: #9a1616 !important;
+}
+.fg-metro-hover-darkPink:hover {
+  color: #9a165a !important;
+}
+.fg-metro-hover-darkViolet:hover {
+  color: #57169a !important;
+}
+.fg-metro-hover-darkBlue:hover {
+  color: #16499a !important;
+}
+.fg-metro-hover-lightBlue:hover {
+  color: #4390df !important;
+}
+.fg-metro-hover-lightTeal:hover {
+  color: #45fffd !important;
+}
+.fg-metro-hover-lightOlive:hover {
+  color: #78aa1c !important;
+}
+.fg-metro-hover-lightOrange:hover {
+  color: #c29008 !important;
+}
+.fg-metro-hover-lightPink:hover {
+  color: #f472d0 !important;
+}
+.fg-metro-hover-lightRed:hover {
+  color: #da5a53 !important;
+}
+.fg-metro-hover-lightGreen:hover {
+  color: #7ad61d !important;
+}
+.fg-metro-hover-grayDark:hover {
+  color: #333333 !important;
+}
+.fg-metro-hover-grayDarker:hover {
+  color: #222222 !important;
+}
+.fg-metro-hover-grayLight:hover {
+  color: #999999 !important;
+}
+.fg-metro-hover-grayLighter:hover {
+  color: #eeeeee !important;
+}
+.fg-metro-hover-blue:hover {
+  color: #00aff0 !important;
+}
+.fg-metro-active-lime:active {
+  color: #a4c400 !important;
+}
+.fg-metro-active-green:active {
+  color: #60a917 !important;
+}
+.fg-metro-active-emerald:active {
+  color: #008a00 !important;
+}
+.fg-metro-active-teal:active {
+  color: #00aba9 !important;
+}
+.fg-metro-active-cyan:active {
+  color: #1ba1e2 !important;
+}
+.fg-metro-active-cobalt:active {
+  color: #0050ef !important;
+}
+.fg-metro-active-indigo:active {
+  color: #6a00ff !important;
+}
+.fg-metro-active-violet:active {
+  color: #aa00ff !important;
+}
+.fg-metro-active-pink:active {
+  color: #dc4fad !important;
+}
+.fg-metro-active-magenta:active {
+  color: #d80073 !important;
+}
+.fg-metro-active-crimson:active {
+  color: #a20025 !important;
+}
+.fg-metro-active-red:active {
+  color: #ce352c !important;
+}
+.fg-metro-active-orange:active {
+  color: #fa6800 !important;
+}
+.fg-metro-active-amber:active {
+  color: #f0a30a !important;
+}
+.fg-metro-active-yellow:active {
+  color: #e3c800 !important;
+}
+.fg-metro-active-brown:active {
+  color: #825a2c !important;
+}
+.fg-metro-active-olive:active {
+  color: #6d8764 !important;
+}
+.fg-metro-active-steel:active {
+  color: #647687 !important;
+}
+.fg-metro-active-mauve:active {
+  color: #76608a !important;
+}
+.fg-metro-active-taupe:active {
+  color: #87794e !important;
+}
+.fg-metro-active-gray:active {
+  color: #555555 !important;
+}
+.fg-metro-active-dark:active {
+  color: #333333 !important;
+}
+.fg-metro-active-darker:active {
+  color: #222222 !important;
+}
+.fg-metro-active-transparent:active {
+  color: transparent !important;
+}
+.fg-metro-active-darkBrown:active {
+  color: #63362f !important;
+}
+.fg-metro-active-darkCrimson:active {
+  color: #640024 !important;
+}
+.fg-metro-active-darkMagenta:active {
+  color: #81003c !important;
+}
+.fg-metro-active-darkIndigo:active {
+  color: #4b0096 !important;
+}
+.fg-metro-active-darkCyan:active {
+  color: #1b6eae !important;
+}
+.fg-metro-active-darkCobalt:active {
+  color: #00356a !important;
+}
+.fg-metro-active-darkTeal:active {
+  color: #004050 !important;
+}
+.fg-metro-active-darkEmerald:active {
+  color: #003e00 !important;
+}
+.fg-metro-active-darkGreen:active {
+  color: #128023 !important;
+}
+.fg-metro-active-darkOrange:active {
+  color: #bf5a15 !important;
+}
+.fg-metro-active-darkRed:active {
+  color: #9a1616 !important;
+}
+.fg-metro-active-darkPink:active {
+  color: #9a165a !important;
+}
+.fg-metro-active-darkViolet:active {
+  color: #57169a !important;
+}
+.fg-metro-active-darkBlue:active {
+  color: #16499a !important;
+}
+.fg-metro-active-lightBlue:active {
+  color: #4390df !important;
+}
+.fg-metro-active-lightTeal:active {
+  color: #45fffd !important;
+}
+.fg-metro-active-lightOlive:active {
+  color: #78aa1c !important;
+}
+.fg-metro-active-lightOrange:active {
+  color: #c29008 !important;
+}
+.fg-metro-active-lightPink:active {
+  color: #f472d0 !important;
+}
+.fg-metro-active-lightRed:active {
+  color: #da5a53 !important;
+}
+.fg-metro-active-lightGreen:active {
+  color: #7ad61d !important;
+}
+.fg-metro-active-grayDark:active {
+  color: #333333 !important;
+}
+.fg-metro-active-grayDarker:active {
+  color: #222222 !important;
+}
+.fg-metro-active-grayLight:active {
+  color: #999999 !important;
+}
+.fg-metro-active-grayLighter:active {
+  color: #eeeeee !important;
+}
+.fg-metro-active-blue:active {
+  color: #00aff0 !important;
+}
+.fg-metro-focus-lime:focus {
+  color: #a4c400 !important;
+}
+.fg-metro-focus-green:focus {
+  color: #60a917 !important;
+}
+.fg-metro-focus-emerald:focus {
+  color: #008a00 !important;
+}
+.fg-metro-focus-teal:focus {
+  color: #00aba9 !important;
+}
+.fg-metro-focus-cyan:focus {
+  color: #1ba1e2 !important;
+}
+.fg-metro-focus-cobalt:focus {
+  color: #0050ef !important;
+}
+.fg-metro-focus-indigo:focus {
+  color: #6a00ff !important;
+}
+.fg-metro-focus-violet:focus {
+  color: #aa00ff !important;
+}
+.fg-metro-focus-pink:focus {
+  color: #dc4fad !important;
+}
+.fg-metro-focus-magenta:focus {
+  color: #d80073 !important;
+}
+.fg-metro-focus-crimson:focus {
+  color: #a20025 !important;
+}
+.fg-metro-focus-red:focus {
+  color: #ce352c !important;
+}
+.fg-metro-focus-orange:focus {
+  color: #fa6800 !important;
+}
+.fg-metro-focus-amber:focus {
+  color: #f0a30a !important;
+}
+.fg-metro-focus-yellow:focus {
+  color: #e3c800 !important;
+}
+.fg-metro-focus-brown:focus {
+  color: #825a2c !important;
+}
+.fg-metro-focus-olive:focus {
+  color: #6d8764 !important;
+}
+.fg-metro-focus-steel:focus {
+  color: #647687 !important;
+}
+.fg-metro-focus-mauve:focus {
+  color: #76608a !important;
+}
+.fg-metro-focus-taupe:focus {
+  color: #87794e !important;
+}
+.fg-metro-focus-gray:focus {
+  color: #555555 !important;
+}
+.fg-metro-focus-dark:focus {
+  color: #333333 !important;
+}
+.fg-metro-focus-darker:focus {
+  color: #222222 !important;
+}
+.fg-metro-focus-transparent:focus {
+  color: transparent !important;
+}
+.fg-metro-focus-darkBrown:focus {
+  color: #63362f !important;
+}
+.fg-metro-focus-darkCrimson:focus {
+  color: #640024 !important;
+}
+.fg-metro-focus-darkMagenta:focus {
+  color: #81003c !important;
+}
+.fg-metro-focus-darkIndigo:focus {
+  color: #4b0096 !important;
+}
+.fg-metro-focus-darkCyan:focus {
+  color: #1b6eae !important;
+}
+.fg-metro-focus-darkCobalt:focus {
+  color: #00356a !important;
+}
+.fg-metro-focus-darkTeal:focus {
+  color: #004050 !important;
+}
+.fg-metro-focus-darkEmerald:focus {
+  color: #003e00 !important;
+}
+.fg-metro-focus-darkGreen:focus {
+  color: #128023 !important;
+}
+.fg-metro-focus-darkOrange:focus {
+  color: #bf5a15 !important;
+}
+.fg-metro-focus-darkRed:focus {
+  color: #9a1616 !important;
+}
+.fg-metro-focus-darkPink:focus {
+  color: #9a165a !important;
+}
+.fg-metro-focus-darkViolet:focus {
+  color: #57169a !important;
+}
+.fg-metro-focus-darkBlue:focus {
+  color: #16499a !important;
+}
+.fg-metro-focus-lightBlue:focus {
+  color: #4390df !important;
+}
+.fg-metro-focus-lightTeal:focus {
+  color: #45fffd !important;
+}
+.fg-metro-focus-lightOlive:focus {
+  color: #78aa1c !important;
+}
+.fg-metro-focus-lightOrange:focus {
+  color: #c29008 !important;
+}
+.fg-metro-focus-lightPink:focus {
+  color: #f472d0 !important;
+}
+.fg-metro-focus-lightRed:focus {
+  color: #da5a53 !important;
+}
+.fg-metro-focus-lightGreen:focus {
+  color: #7ad61d !important;
+}
+.fg-metro-focus-grayDark:focus {
+  color: #333333 !important;
+}
+.fg-metro-focus-grayDarker:focus {
+  color: #222222 !important;
+}
+.fg-metro-focus-grayLight:focus {
+  color: #999999 !important;
+}
+.fg-metro-focus-grayLighter:focus {
+  color: #eeeeee !important;
+}
+.fg-metro-focus-blue:focus {
+  color: #00aff0 !important;
+}
+.zebra-metro-lime {
+  background: #a4c400 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-green {
+  background: #60a917 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-emerald {
+  background: #008a00 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-teal {
+  background: #00aba9 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-cyan {
+  background: #1ba1e2 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-cobalt {
+  background: #0050ef linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-indigo {
+  background: #6a00ff linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-violet {
+  background: #aa00ff linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-pink {
+  background: #dc4fad linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-magenta {
+  background: #d80073 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-crimson {
+  background: #a20025 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-red {
+  background: #ce352c linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-orange {
+  background: #fa6800 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-amber {
+  background: #f0a30a linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-yellow {
+  background: #e3c800 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-brown {
+  background: #825a2c linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-olive {
+  background: #6d8764 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-steel {
+  background: #647687 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-mauve {
+  background: #76608a linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-taupe {
+  background: #87794e linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-dark {
+  background: #222222 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-darker {
+  background: #1d1d1d linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-darkBrown {
+  background: #63362f linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-darkCrimson {
+  background: #640024 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-darkMagenta {
+  background: #81003c linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-darkIndigo {
+  background: #4b0096 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-darkCyan {
+  background: #1b6eae linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-darkCobalt {
+  background: #00356a linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-darkTeal {
+  background: #004050 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-darkEmerald {
+  background: #003e00 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-darkGreen {
+  background: #128023 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-darkOrange {
+  background: #bf5a15 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-darkRed {
+  background: #9a1616 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-darkPink {
+  background: #9a165a linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-darkViolet {
+  background: #57169a linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-darkBlue {
+  background: #16499a linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-lightBlue {
+  background: #4390df linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-lightTeal {
+  background: #45fffd linear-gradient(-45deg, rgba(0, 0, 0, 0.15) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-lightOlive {
+  background: #78aa1c linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-lightOrange {
+  background: #c29008 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-lightPink {
+  background: #f472d0 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-lightRed {
+  background: #da5a53 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-lightGreen {
+  background: #7ad61d linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-lighterBlue {
+  background: #00ccff linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-grayed {
+  background: #585858 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-grayDark {
+  background: #333333 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-grayDarker {
+  background: #222222 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-gray {
+  background: #555555 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-grayLight {
+  background: #999999 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-grayLighter {
+  background: #eeeeee linear-gradient(-45deg, rgba(0, 0, 0, 0.15) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
+.zebra-metro-blue {
+  background: #00aff0 linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+  background-size: 40px 40px !important;
+}
