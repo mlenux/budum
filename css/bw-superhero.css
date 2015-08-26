@@ -1480,9 +1480,22 @@ font-size: 90%;
 text-transform: uppercase;
 }
 blockquote {
-padding: 10.5px 21px;
-margin: 0 0 21px;
-font-size: 18.75px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  position: relative;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.35;
+  letter-spacing: .08em
+}
+blockquote:before {
+  position: absolute;
+  left: -.5em;
+  content: '\201c';
+}
+blockquote:after {
+  content: '\201d';
+  margin-left: -.05em
 }
 blockquote p:last-child,
 blockquote ul:last-child,
